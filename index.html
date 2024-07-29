@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+     <link rel="icon" type="image/png"href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com"><!--favicon --> 
+    <title>template</title>
+</head>
+<body>
+   
+    <div class="heading-align">
+    <button class="heading-button "><h1 class="heading">+ Add Bookmarks</h1></button>
+    </div>
+    <div class="screen-elements">
+        <div class="bookmark-containers">
+            <img src="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com" alt="img">
+            <a href="https://google.com" target="_blank"> google</a>
+            <i class="fa-solid fa-square-xmark" id="delete-bookmark"></i>
+        </div>
+    
+    
+        <div class="bookmark-containers">
+            <img src="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com" alt="img">
+            <a href="https://google.com" target="_blank"> google</a>
+            <i class="fa-solid fa-square-xmark" id="delete-bookmark"></i>
+        </div>
+    
+    
+        <div class="bookmark-containers">
+            <img src="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com" alt="img">
+            <a href="https://google.com" target="_blank"> google</a>
+            <i class="fa-solid fa-square-xmark"  id="delete-bookmark"></i>
+        </div>
+    </div>
+        <div class="modal-space">
+        <div class="modal-container" hidden>
+            
+            <h4 class="modal-heading">Add Bookmark</h4>
+            
+           
+            <form class="form" id="form" >
+                   
+                <div id="title">  
+                <label for="title" class="labeltitle">Title:</label>     
+                <input type="text" class="title" name="title" placeholder="Title">
+                 </div>
+                            
+                
+                 <div id="URL">
+                <label for="URL" class="labelURL">URL:</label>    
+                <input type="url" class="datepicker" name="url"  placeholder="URL">
+                 </div>
+    
+                <div id="button">   
+                <button type="submit" class="savebutton" >SAVE</button>
+                <button type="button" class="closebutton" >CLOSE</button>
+                </div>
+    
+                </form>
+        </div>
+        </div>
+    
+    
+        
+    
+    
+       
+        <script src="script.js"></script>   
+</body>
+</html>
