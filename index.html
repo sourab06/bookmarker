@@ -15,25 +15,7 @@
     <button class="heading-button "><h1 class="heading">+ Add Bookmarks</h1></button>
     </div>
     <div class="screen-elements">
-        <div class="bookmark-containers">
-            <img src="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com" alt="img">
-            <a href="https://google.com" target="_blank"> google</a>
-            <i class="fa-solid fa-square-xmark" id="delete-bookmark"></i>
-        </div>
-    
-    
-        <div class="bookmark-containers">
-            <img src="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com" alt="img">
-            <a href="https://google.com" target="_blank"> google</a>
-            <i class="fa-solid fa-square-xmark" id="delete-bookmark"></i>
-        </div>
-    
-    
-        <div class="bookmark-containers">
-            <img src="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com" alt="img">
-            <a href="https://google.com" target="_blank"> google</a>
-            <i class="fa-solid fa-square-xmark"  id="delete-bookmark"></i>
-        </div>
+        
     </div>
         <div class="modal-space">
         <div class="modal-container" hidden>
@@ -41,25 +23,27 @@
             <h4 class="modal-heading">Add Bookmark</h4>
             
            
-            <form class="form" id="form" >
+            <form class="form" id="Bookmarker" >
                    
-                <div id="title">  
-                <label for="title" class="labeltitle">Title:</label>     
-                <input type="text" class="title" name="title" placeholder="Title">
-                 </div>
-                            
+                <div class="title">  
+                    <label for="title" class="labeltitle">Title:</label>     
+                    <input type="text" id="title" name="title" placeholder="Title">
+                </div>
                 
-                 <div id="URL">
-                <label for="URL" class="labelURL">URL:</label>    
-                <input type="url" class="datepicker" name="url"  placeholder="URL">
-                 </div>
+                <div class="URL">
+                    <label for="url" class="labelURL">URL:</label>    
+                    <input type="url" id="url" name="url" placeholder="URL">
+                </div>
     
-                <div id="button">   
-                <button type="submit" class="savebutton" >SAVE</button>
-                <button type="button" class="closebutton" >CLOSE</button>
+                <div class="buttons">   
+                    <button type="submit" class="savebutton">SAVE</button>
+                    <button type="button" class="closebutton">CLOSE</button>
                 </div>
     
                 </form>
+
+
+                
         </div>
         </div>
     

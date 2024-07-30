@@ -47,13 +47,13 @@
     background-color: #ad8edd;
     margin:0;
 }
-#title{
+.title{
     margin:6px;
 }
-#URL{
+.URL{
     margin:6px;
 }
-#button{
+.buttons{
     margin:6px;
     display: flex;
     justify-content: space-evenly;
@@ -63,6 +63,12 @@
     background-color:  #ad8edd;
     display: inline;
     border-radius: 5px;
+}
+.deletebutton{
+    border:none;
+    color:white;
+    background-color: black;
+    
 }
 
 
